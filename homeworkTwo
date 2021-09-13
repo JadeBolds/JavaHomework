@@ -1,0 +1,136 @@
+package SeptNinth;
+
+public class homeworkTwo {
+//    Loops, Control Flow, Arrays and Methods
+//    Note: Create all your static methods outside on the main() method!
+//
+//
+//    Question 1
+//
+//    public static int getLastIndex(String[] names) {
+//        int getLast = names.length - 1;
+//        return  getLast;
+//    }
+//    public static void main(String[] args) {
+//        String[] names =  {"Mary", "Harry", "Billy", "Lily", "Tily"};
+//        System.out.println(getLastIndex(names));
+//    }
+
+//
+//    Question 2
+//    public static int getSecondToLastIndex(String[] names) {
+//    int getSecLast = names.length - 2;
+//        return  getSecLast;
+//}
+//    public static void main(String[] args) {
+//        String[] names =  {"Mary", "Harry", "Billy", "Lily", "Tily"};
+//        System.out.println(getSecondToLastIndex(names));
+//    }
+//
+//    Question 3
+//    public static String getFirstElement(String[] names) {
+//        String getFirst = names[0];
+//        return getFirst;
+//    }
+//
+//    public static void main(String[] args) {
+//        String[] names =  {"Mary", "Harry", "Billy", "Lily", "Tily"};
+//        System.out.println(getFirstElement(names));
+//    }
+//
+//    Question 4
+//    public static String getLastElement(String[] names) {
+//        String getLast = names[names.length - 1];
+//        return getLast;
+//    }
+//
+//    public static void main(String[] args) {
+//        String[] names =  {"Mary", "Harry", "Billy", "Lily", "Tily"};
+//        System.out.println(getLastElement(names));
+//    }
+//
+//    Question 5
+//    public static String getSecondToLastElement(String[] names) {
+//    String secondLast = names[names.length - 2];
+//            return secondLast;
+//    }
+//
+//    public static void main(String[] args) {
+//        String[] names =  {"Mary", "Harry", "Billy", "Lily", "Tily"};
+//        System.out.println(getSecondToLastElement(names));
+//    }
+//
+//    Question 6
+//    public static int getSum(int[] ints) {
+//        int theSum = 0;
+//        for (int i = 0; i < ints.length; i++)
+//            theSum += ints[i];
+//        return  theSum;
+//    }
+//    public static void main(String[] args) {
+//        int[] ints =  {2, 4, 6, 8, 10, 12};
+//        System.out.println(getSum(ints));
+//    }
+//
+//    Question 7
+//    public static int getAverage(int[] ints) {
+//        int theSum = 0;
+//        for (int i = 0; i < ints.length; i++) {
+//            theSum += ints[i];}
+//
+//        int theAverage = theSum / ints.length;
+//        return theAverage;
+//    }
+//
+//
+//    public static void main(String[] args) {
+//        int[] ints =  {2, 4, 6, 8, 10, 12};
+//        System.out.println(getAverage(ints));
+//    }
+//
+//    Question 8
+//    public static String extractAllOddNumbers(int[] numbers) {
+//        String odds = "";
+//        for (int i = 0; i < numbers.length; i++){
+//            if (numbers[i] % 2 == 1 ){
+//                odds += numbers[i] + "  ";
+//            }
+//        }
+
+//        return  odds;
+//    }
+//    public static void main(String[] args) {
+//        int[] ints =  {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+//        System.out.println(extractAllOddNumbers(ints));
+//    }
+//
+//    Question 9
+//    public static String extractAllEvenNumbers(int[] numbers) {
+//    String evens = "";
+//            for (int i = 0; i < numbers.length; i++){
+//            if (numbers[i] % 2 == 0 ){
+//                evens += numbers[i] + "  ";
+//            }
+//        }
+//
+//            return evens;
+//    }
+//        public static void main(String[] args) {
+//            int[] ints =  {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+//            System.out.println(extractAllEvenNumbers(ints));
+//        }
+//
+//    Question 10
+//    public static boolean contains(String[] names, String element) {
+//        for (int i = 0; i < names.length; i++) {
+//            if (names[i].equals(element)){
+//                return true;
+//            }
+//        }
+//        return false;
+//    }
+//
+//    public static void main(String[] args) {
+//        String[] theArray = {"Tony", "Tomy", "69", "420"};
+//        System.out.println(contains(theArray, "69"));
+//    }
